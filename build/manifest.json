@@ -1,0 +1,63 @@
+{
+  "_method_4-jtxZILaq.js": {
+    "file": "assets/method_4-jtxZILaq.js"
+  },
+  "_runtime-dom.esm-bundler-AhNrgLCT.js": {
+    "file": "assets/runtime-dom.esm-bundler-AhNrgLCT.js",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-w40geAFS.js",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/js/app.js": {
+    "dynamicImports": [
+      "resources/js/views/main/Index.vue",
+      "resources/js/views/product/Index.vue",
+      "resources/js/views/product/Show.vue",
+      "resources/js/views/cart/Index.vue"
+    ],
+    "file": "assets/app-3xq8wrCa.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  },
+  "resources/js/views/cart/Index.vue": {
+    "file": "assets/Index-BNTun7nC.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/views/cart/Index.vue"
+  },
+  "resources/js/views/main/Index.vue": {
+    "file": "assets/Index-8Ur3WFhE.js",
+    "imports": [
+      "resources/js/app.js",
+      "_method_4-jtxZILaq.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/views/main/Index.vue"
+  },
+  "resources/js/views/product/Index.vue": {
+    "file": "assets/Index-vFQNmSAv.js",
+    "imports": [
+      "_runtime-dom.esm-bundler-AhNrgLCT.js",
+      "_method_4-jtxZILaq.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/views/product/Index.vue"
+  },
+  "resources/js/views/product/Show.vue": {
+    "file": "assets/Show-sqqNXSJU.js",
+    "imports": [
+      "_runtime-dom.esm-bundler-AhNrgLCT.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/views/product/Show.vue"
+  }
+}
